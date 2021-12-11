@@ -1,0 +1,112 @@
+.logo{
+    
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+}
+a:hover{
+   
+    text-decoration: underline;
+    
+}
+
+.Navigation{
+    
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.listes {
+      
+   margin-left: 5px;
+   padding: 10px;
+}
+.braedcrumbs {
+    
+    display: flex; 
+    list-style: none;
+    align-items: center;
+    margin-right: 50px;
+}
+.secondes {
+
+    margin-left: 10px;
+    padding: 10px;
+}
+.img{
+
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+h1{
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 60px;
+}
+.paragraphe{
+    margin-left: 60px;
+}
+.product{
+    border: solid 1px black;
+    width: 200px;
+    padding: 10px;
+    margin: 14px;
+}
+h2{
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+    font-family: Copperplate, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 1px;
+}
+.price1{
+    color: grey;
+}
+.price3{
+    color: green;
+}
+footer{
+    border: black solid 2px;
+    background-color: black;
+    width: 5000px;
+    height: 100px;
+    margin-top: 500px;
+}
+@media only screen and (max-width: 525px) {
+    .Navigation{
+        flex-direction: column;
+    }
+    .t1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+@media only screen and (max-width: 448px) {
+    .braedcrumbs{
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 525px) {
+      .Navigation{
+          margin-top: 15px;
+      }
+    .listes,.Navigation{
+    
+        display: inline-block;
+    }
+  }
