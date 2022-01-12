@@ -1,81 +1,83 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    margin: 10px 0px 0px 10px;
-    font-weight: bold;
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 0px 10px;
+  font-weight: bold;
 }
-nav ul li{
-    padding: 0px 20px;
+nav ul li {
+  padding: 0px 20px;
 }
-.breadcrumbs{
-    display: flex;
-    align-items: center;
-    margin: 10px 0px 0px 10px;
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 0px 10px;
 }
-.breadcrumbs li{
-    padding: 0px 20px;
+.breadcrumbs li {
+  padding: 0px 20px;
 }
-.first-section{
-    margin: 10px 0px 0px 10px;
+.first-section {
+  margin: 10px 0px 0px 10px;
 }
-.first-section h1{
-    padding: 0px 20px;
+.first-section h1 {
+  padding: 0px 20px;
 }
-.first-section p{
-    padding: 20px 0px 20px 20px;
+.first-section p {
+  padding: 20px 0px 20px 20px;
 }
-.last-section{
-    margin: 20px 25px 0px 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.last-section {
+  margin: 20px 25px 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.product{
-    border: gray 2px solid;
+.product {
+  border: gray 2px solid;
 }
-.p-color{
-    color: gray;
+.p-color {
+  color: gray;
 }
-.p-color1{
-    color: green;
+.p-color1 {
+  color: green;
 }
-.product img, .product h1, .product p{
-    padding: 10px;
+.product img,
+.product h1,
+.product p {
+  padding: 10px;
 }
 @media (max-width: 750px) {
-    nav ul{
-        flex-direction: column;
-    }
-    nav ul li{
-        padding: 10px 0px;
-    }
-    .breadcrumbs{
-        flex-direction: column;
-    }
-    .breadcrumbs li{
-        padding: 10px 0px;
-    }
-    .last-section{
-        flex-direction: column;
-    }
-    .product{
-        margin: 10px 0px;
-    }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    padding: 10px 0px;
+  }
+  .breadcrumbs {
+    flex-direction: column;
+  }
+  .breadcrumbs li {
+    padding: 10px 0px;
+  }
+  .last-section {
+    flex-direction: column;
+  }
+  .product {
+    margin: 10px 0px;
+  }
 }
